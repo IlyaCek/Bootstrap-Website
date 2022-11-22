@@ -165,17 +165,23 @@ a:hover {
 }
 
 .myBTN:hover {
-color: #eee;
+  color: #eee;
 }
-.footer  {
+
+.footer {
   color: #ffb703;
   background-color: #023047;
 
 }
 
-.footer a  {
+.footer a {
   color: #ffb703;
   background-color: #023047;
 }
 
-/* end of navbar */
+.contact-us-body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
